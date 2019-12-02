@@ -3,9 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "action.js",
-    "dependencies": {
-      "dragscroll": "0.0.8"
-    },
+
     "devDependencies": {},
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
