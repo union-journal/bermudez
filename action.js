@@ -4,16 +4,17 @@ $(document).ready(function() {
     for ( var i = 0; i < divs.length; i++ ) {
       imglist.push( divs[ i ].innerHTML );
     }
+    return imglist 
   }
    
-  disp( $( "img" ).toArray());
+  var lister = disp( $( "img" ).toArray());
 
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
 
     
-    $(imglist[0]).css({
+    $(lister[0]).css({
         'opacity': ((height - scrollTop) / height)
     }); 
 
