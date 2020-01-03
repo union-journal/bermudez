@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	overflow: hidden; /* Hide scrollbars */
+
 	line-height: 1;
 }
 ol, ul {
@@ -43,7 +45,6 @@ table {
 }
 
 img{
-	position:fixed;
 	width:100%;
 	height:100;
 	z-index:-1;
