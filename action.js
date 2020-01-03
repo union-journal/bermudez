@@ -8,6 +8,7 @@ $(document).ready(function() {
   }
    
   var lister = disp( $( "img" ).toArray());
+  console.log(lister)
 
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
