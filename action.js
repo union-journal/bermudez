@@ -1,13 +1,5 @@
-$(document).ready(function() {
-  function disp( divs ) {
-    var imglist = [];
-    for ( var i = 0; i < divs.length; i++ ) {
-      imglist.push( divs[ i ].innerHTML );
-    }
-    return imglist 
-  }
-   
-  var lister = disp( $( "img" ).toArray());
+$(document).ready(function() {   
+  var lister = $( "img" ).toArray();
   console.log(lister)
 
   $(window).scroll(function () {
