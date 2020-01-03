@@ -6,11 +6,15 @@ $(document).ready(function() {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
 
-    
     $(lister[0]).css({
-        'opacity': ((height - scrollTop) / height)
+      'opacity': ((height - scrollTop) / height)
     }); 
 
+    if (scrollTop > 500 && scrollTop < 1000 ){
+      $(lister[1]).css({
+        'opacity': ((500-  scrollTop) / 500)
+      }); 
+    }
 
   });
 });
