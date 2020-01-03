@@ -47,8 +47,10 @@ img{
 	width:100%;
 	height:100;
 	z-index:-1;
+	opacity:0;
 }
 
 img #top{
 	z-index:100;
+	opacity:1;
 }
