@@ -13,27 +13,27 @@ $(document).ready(function() {
       $(lister[0]).addClass("visible")
     }
 
-    if (scrollTop > 1200 && scrollTop < 1400 ){
+    if (scrollTop > 2200 && scrollTop < 2400 ){
       $(lister[1]).removeClass("invisible")
       $(lister[1]).addClass("visible")
     }
 
-    if (scrollTop > 2200 && scrollTop < 2400 ){
+    if (scrollTop > 4200 && scrollTop < 4400 ){
       $(lister[2]).removeClass("invisible")
       $(lister[2]).addClass("visible")
     }
 
-    if (scrollTop > 3200 && scrollTop < 3400 ){
+    if (scrollTop > 6200 && scrollTop < 6400 ){
       $(lister[3]).removeClass("invisible")
       $(lister[3]).addClass("visible")
     }
 
-    if (scrollTop > 4200 && scrollTop < 4400 ){
+    if (scrollTop > 6200 && scrollTop < 6400 ){
       $(lister[4]).removeClass("invisible")
       $(lister[4]).addClass("visible")
     }
 
-    if (scrollTop > 5200 && scrollTop < 5400 ){
+    if (scrollTop > 6200 && scrollTop < 6400 ){
       for (let i = 0; i < 5; ++i) {
         $(lister[i]).removeClass("visible")
         $(lister[i]).addClass("invisible")
