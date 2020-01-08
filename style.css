@@ -57,7 +57,10 @@ img{
 	top:0;
 	opacity:0;
 	min-height:100vh;
+	transition: all .3s ease-in-out;
+
 }
+
 
 #top{
 }
