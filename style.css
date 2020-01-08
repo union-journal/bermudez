@@ -52,25 +52,31 @@ table {
 }
 
 img{
-    position: fixed;
     opacity: 1;
 	transition: all .3s ease-in-out;
 }
 
 
 .p1left{
-	height: 56%;
-	margin-left: 19%;
+	margin-top: 1%;
+    height: 34%;
+    margin-left: 2%;
+	display: inline;
+	position: relative;
 }
 
 .p1middle{
-	height: 56%;
-	margin-left: 40%;
+	position: relative;
+    height: 34%;
+    margin-left: 1%;
+    display: inline;
 }
 
 .p1right{
-	height: 56%;
-	margin-left: 54%;
+	position: relative;
+    height: 34%;
+	margin-left: 1%;
+    display: inline;
 }
 
 .p1bmiddle{
@@ -86,7 +92,7 @@ img{
     height: 26%;
 }
 
-img .coopertown{
+.coopertown{
 	text-align: center;
     height: 51%;
 }
