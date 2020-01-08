@@ -52,7 +52,6 @@ table {
 }
 
 img{
-    opacity: 0;
 	transition: all .3s ease-in-out;
 }
 
@@ -100,10 +99,3 @@ img{
     height: 30%;
 }
 
-.visible{
-	opacity: 1;
-}
-
-.invisible{
-	opacity: 0;
-}

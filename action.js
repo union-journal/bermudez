@@ -6,34 +6,28 @@ $(document).ready(function() {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
 
-    /* First page css */
-
-    if (scrollTop > 200  ){
-      $(lister[0]).addClass("vislble")
+    if (scrollTop > 200 && scrollTop < 700 ){
+      $(lister[0]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
     }
 
-    if (scrollTop > 700 ){
-      $(lister[1]).addClass("vislble")
+    if (scrollTop > 700 && scrollTop < 1200 ){
+      $(lister[1]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
     }
 
-    if (scrollTop > 1200 ){
-      $(lister[2]).addClass("vislble")
+    if (scrollTop > 1200 && scrollTop < 1700 ){
+      $(lister[2]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
     }
 
-    if (scrollTop > 1700 ){
-      $(lister[3]).addClass("vislble")
-    }
-
-    if (scrollTop > 2200  ){
-      $(lister[4]).addClass("vislble")
-    }
-
-    if (scrollTop > 2700  ){
-      $(lister[0]).removeClass("vislble")
-      $(lister[1]).removeClass("vislble")
-      $(lister[2]).removeClass("vislble")
-      $(lister[3]).removeClass("vislble")
-      $(lister[4]).removeClass("vislble")
+    if (scrollTop > 1700 && scrollTop < 2200 ){
+      $(lister[3]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
     }
 
   });
