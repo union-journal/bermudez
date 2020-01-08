@@ -171,7 +171,28 @@ img{
 .visual{
 	position: fixed;
     top: 50%;
-    left: 35%;
+    left: 18%;
     margin-top: -600px;
     height: 1200px;
+}
+
+.p4top{
+	position: fixed;
+    top: 30%;
+    height: 42%;
+    left: 14.5%;
+}
+
+.p4left{
+    position: fixed;
+    top: 56%;
+    height: 52%;
+    left: 41%;
+}
+
+.p4right{
+	position: fixed;
+    top: 46%;
+    height: 37%;
+    left: 71%;
 }

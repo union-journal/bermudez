@@ -102,7 +102,7 @@ $(document).ready(function() {
 
     
     if (scrollTop > 31200 && scrollTop < 31400 ){
-      for (let i = 9; i < 13; ++i) {
+      for (let i = 9; i < 14; ++i) {
         $(lister[i]).removeClass("visible")
         $(lister[i]).addClass("invisible")
 
