@@ -30,5 +30,16 @@ $(document).ready(function() {
       }); 
     }
 
+    if (scrollTop > 1700 && scrollTop < 2200 ){
+      $(lister[4]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
+    }
+
+    if (scrollTop > 1700 && scrollTop < 2200 ){
+      $(lister[5]).css({
+        'opacity': (( scrollTop - 500 ) / 500)
+      }); 
+    }
   });
 });
