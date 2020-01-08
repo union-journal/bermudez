@@ -139,3 +139,39 @@ img{
     margin-top: -600px;
     height: 1200px;
 }
+
+.p3tright{
+	position: fixed;
+    top: 15%;
+    height: 70%;
+    left: 16%;
+}
+
+.p3tleft{
+	position: fixed;
+    top: 15%;
+    height: 70%;
+    left: 42.5%;
+}
+
+.p3bleft{
+	position: fixed;
+    top: 15%;
+    height: 70%;
+    left: 60%;
+}
+
+.p3bright{
+	position: fixed;
+    top: 15%;
+    height: 70%;
+    left: 60%;
+}
+
+.visual{
+	position: fixed;
+    top: 50%;
+    left: 35%;
+    margin-top: -600px;
+    height: 1200px;
+}

@@ -74,5 +74,15 @@ $(document).ready(function() {
       $(lister[9]).addClass("visible")
     }
 
+
+    /* PAGE THREE */
+    if (scrollTop > 24200 && scrollTop < 24400 ){
+      $(lister[9]).removeClass("visible")
+      $(lister[9]).addClass("invisible")
+
+      $(lister[10]).removeClass("invisible")
+      $(lister[10]).addClass("visible")
+    }
+
   });
 });
