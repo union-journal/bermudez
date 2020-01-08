@@ -142,30 +142,30 @@ img{
 
 .p3tright{
 	position: fixed;
-    top: 15%;
-    height: 70%;
-    left: 16%;
+    top: 2%;
+    height: 42%;
+    left: 14%;
 }
 
 .p3tleft{
 	position: fixed;
-    top: 15%;
-    height: 70%;
-    left: 42.5%;
+    top: 30%;
+    height: 42%;
+    left: 14.5%;
 }
 
 .p3bleft{
-	position: fixed;
-    top: 15%;
-    height: 70%;
-    left: 60%;
+    position: fixed;
+    top: 56%;
+    height: 52%;
+    left: 41%;
 }
 
 .p3bright{
 	position: fixed;
-    top: 15%;
-    height: 70%;
-    left: 60%;
+    top: 46%;
+    height: 37%;
+    left: 71%;
 }
 
 .visual{

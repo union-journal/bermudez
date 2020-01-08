@@ -100,6 +100,39 @@ $(document).ready(function() {
       $(lister[13]).addClass("visible")
     }
 
+    
+    if (scrollTop > 31200 && scrollTop < 31400 ){
+      for (let i = 9; i < 13; ++i) {
+        $(lister[i]).removeClass("visible")
+        $(lister[i]).addClass("invisible")
+
+      }
+      $(lister[14]).removeClass("invisible")
+      $(lister[14]).addClass("visible")
+    }
+
+    /* PAGE FOUR */
+    if (scrollTop > 33200 && scrollTop < 33400 ){
+      $(lister[14]).removeClass("visible")
+      $(lister[14]).addClass("invisible")
+
+      $(lister[15]).removeClass("invisible")
+      $(lister[15]).addClass("visible")
+    }
+
+    if (scrollTop > 35200 && scrollTop < 35400 ){
+      $(lister[16]).removeClass("invisible")
+      $(lister[16]).addClass("visible")
+    }
+    if (scrollTop > 37200 && scrollTop < 37400 ){
+      $(lister[17]).removeClass("invisible")
+      $(lister[17]).addClass("visible")
+    }
+    if (scrollTop > 39200 && scrollTop < 39400 ){
+      $(lister[18]).removeClass("invisible")
+      $(lister[18]).addClass("visible")
+    }
+
 
   });
 });
