@@ -115,19 +115,29 @@ img{
 	position: fixed;
     top: 15%;
     height: 70%;
-    left: 13%;
+    left: 16%;
 }
 
 .p2middle{
 	position: fixed;
     top: 15%;
     height: 70%;
-    left: 23%;
+    left: 42.5%;
 }
 
 .p2right{
 	position: fixed;
     top: 15%;
     height: 70%;
-    left: 33%;
+    left: 60%;
+}
+
+.unionblues{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -600px;
+    margin-left: -500px;
+    height: 1200px;
+    width: 1000px;
 }
