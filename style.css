@@ -94,8 +94,9 @@ img{
 	text-align: center;
     display: block;    
 	text-align: center;
-	left:50%;
-
-    height: 30%;
+	top: 50%;
+	left: 50%;
+	margin-left:-50%;
+    height: 300px;
 }
 
