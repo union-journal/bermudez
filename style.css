@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     -ms-overflow-style: none;
 	line-height: 1;
-	height:5000px;
+	height:10000;
 }
 
 body::-webkit-scrollbar {
