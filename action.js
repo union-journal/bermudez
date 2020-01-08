@@ -64,5 +64,15 @@ $(document).ready(function() {
       $(lister[8]).addClass("visible")
     }
 
+    if (scrollTop > 19200 && scrollTop < 19400 ){
+      for (let i = 5; i < 9; ++i) {
+        $(lister[i]).removeClass("visible")
+        $(lister[i]).addClass("invisible")
+
+      }
+      $(lister[9]).removeClass("invisible")
+      $(lister[9]).addClass("visible")
+    }
+
   });
 });

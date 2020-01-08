@@ -113,21 +113,21 @@ img{
 
 .p2left{
 	position: fixed;
-	margin-top:1%;
-	height: 56%;
-	margin-left: 19%;
+    top: 15%;
+    height: 70%;
+    left: 13%;
 }
 
 .p2middle{
 	position: fixed;
-	margin-top:1%;
-	height: 56%;
-	margin-left: 40%;
+    top: 15%;
+    height: 70%;
+    left: 23%;
 }
 
 .p2right{
 	position: fixed;
-	margin-top:1%;
-	height: 56%;
-	margin-left: 54%;
+    top: 15%;
+    height: 70%;
+    left: 33%;
 }
