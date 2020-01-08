@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     -ms-overflow-style: none;
 	line-height: 1;
+	height:5000px;
 }
 
 body::-webkit-scrollbar {
@@ -54,6 +55,8 @@ img{
 	width:100%;
 	position:absolute;
 	top:0;
+	opacity:0;
+	min-height:100vh;
 }
 
 #top{
