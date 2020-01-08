@@ -30,12 +30,12 @@ $(document).ready(function() {
       $(lister[3]).addClass("visible")
     }
 
-    if (scrollTop > 6200 && scrollTop < 6400 ){
+    if (scrollTop > 8200 && scrollTop < 8400 ){
       $(lister[4]).removeClass("invisible")
       $(lister[4]).addClass("visible")
     }
 
-    if (scrollTop > 6200 && scrollTop < 6400 ){
+    if (scrollTop > 10200 && scrollTop < 10400 ){
       for (let i = 0; i < 5; ++i) {
         $(lister[i]).removeClass("visible")
         $(lister[i]).addClass("invisible")
