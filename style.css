@@ -99,3 +99,11 @@ img{
 
     height: 30%;
 }
+
+.visible{
+	opacity: 1;
+}
+
+.invisible{
+	opacity: 0;
+}
