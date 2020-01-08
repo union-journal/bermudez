@@ -52,16 +52,14 @@ table {
 }
 
 img{
-	opacity:0;
 	transition: all .3s ease-in-out;
 }
 
 
 .p1left{
-	position: fixed;
-	margin-top:1%;
-	height: 56%;
-	margin-left: 19%;
+	background-image: url('img/page_1_left.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .p1middle{
@@ -103,3 +101,6 @@ img{
     width: 1000px;
 }
 
+.invisible{
+	opacity:0;
+}

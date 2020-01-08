@@ -21,26 +21,36 @@ $(document).ready(function() {
 
     if (scrollTop > 1200 && scrollTop < 1700 ){
       $(lister[2]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
+        'opacity': (( scrollTop - 1200 ) / 500)
       }); 
     }
 
     if (scrollTop > 1700 && scrollTop < 2200 ){
       $(lister[3]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
+        'opacity': (( scrollTop - 1700 ) / 500)
       }); 
     }
 
-    if (scrollTop > 1700 && scrollTop < 2200 ){
+    if (scrollTop > 2200 && scrollTop < 2700 ){
       $(lister[4]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
+        'opacity': (( scrollTop - 2200 ) / 500)
       }); 
     }
 
-    if (scrollTop > 1700 && scrollTop < 2200 ){
-      $(lister[5]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
-      }); 
+    if (scrollTop > 2700 && scrollTop < 3200 ){
+      
+    
+      $(lister[0]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      $(lister[1]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      $(lister[2]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      $(lister[3]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      $(lister[4]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+
+      $(lister[5]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
     }
+
+
+
+
   });
 });
