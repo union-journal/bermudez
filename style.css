@@ -58,41 +58,42 @@ img{
 
 
 .p1left{
-	margin-top: 1%;
-    height: 34%;
-    margin-left: 2%;
-	display: inline;
-	position: relative;
+	position: fixed;
+
+	height: 56%;
+	margin-left: 19%;
 }
 
 .p1middle{
-	position: relative;
-    height: 34%;
-    margin-left: 1%;
-    display: inline;
+	position: fixed;
+	height: 56%;
+	margin-left: 40%;
 }
 
 .p1right{
-	position: relative;
-    height: 34%;
-	margin-left: 1%;
-    display: inline;
+	position: fixed;
+	height: 56%;
+	margin-left: 54%;
 }
 
-.p1bmiddle{
+.p1bottommiddle{
+	position: fixed;
 	margin-left: 36%;
     margin-top: 21%;
     height: 40%;
     transform: rotate(18deg);
 }
 
-.p1bright{
+.p1bottomright{
+	position: fixed;
 	margin-left: 60%;
     margin-top: 34%;
     height: 26%;
 }
 
-.coopertown{
+img .coopertown{
+	position: relative;
+
 	text-align: center;
     height: 51%;
 }
