@@ -76,7 +76,7 @@ img{
 	margin-left: 54%;
 }
 
-.p1bottommiddle{
+.p1bmiddle{
 	position: fixed;
 	margin-left: 36%;
     margin-top: 21%;
@@ -84,16 +84,18 @@ img{
     transform: rotate(18deg);
 }
 
-.p1bottomright{
+.p1bright{
 	position: fixed;
 	margin-left: 60%;
     margin-top: 34%;
     height: 26%;
 }
 
-img .coopertown{
-	position: relative;
-
+.coopertown{
 	text-align: center;
-    height: 51%;
+    display: block;    
+	text-align: center;
+	left:50%;
+
+    height: 30%;
 }
