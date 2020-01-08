@@ -46,12 +46,22 @@ $(document).ready(function() {
     }
 
     /* SECOND PAGE */
-    if (scrollTop > 12200 && scrollTop < 12400 ){
+    if (scrollTop > 13200 && scrollTop < 13400 ){
       $(lister[5]).removeClass("visible")
       $(lister[5]).addClass("invisible")
 
       $(lister[6]).removeClass("invisible")
       $(lister[6]).addClass("visible")
+    }
+
+    if (scrollTop > 15200 && scrollTop < 15400 ){
+      $(lister[7]).removeClass("invisible")
+      $(lister[7]).addClass("visible")
+    }
+
+    if (scrollTop > 17200 && scrollTop < 17400 ){
+      $(lister[8]).removeClass("invisible")
+      $(lister[8]).addClass("visible")
     }
 
   });

@@ -110,3 +110,24 @@ img{
 .visible{
 	opacity:1;
 }
+
+.p2left{
+	position: fixed;
+	margin-top:1%;
+	height: 56%;
+	margin-left: 19%;
+}
+
+.p2middle{
+	position: fixed;
+	margin-top:1%;
+	height: 56%;
+	margin-left: 40%;
+}
+
+.p2right{
+	position: fixed;
+	margin-top:1%;
+	height: 56%;
+	margin-left: 54%;
+}
