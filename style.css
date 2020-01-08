@@ -58,29 +58,29 @@ img{
 }
 
 
-img .p1left{
+.p1left{
 	height: 56%;
 	margin-left: 19%;
 }
 
-img .p1middle{
+.p1middle{
 	height: 56%;
 	margin-left: 40%;
 }
 
-img .p1right{
+.p1right{
 	height: 56%;
 	margin-left: 54%;
 }
 
-img .p1bottommiddle{
+.p1bottommiddle{
 	margin-left: 36%;
     margin-top: 21%;
     height: 40%;
     transform: rotate(18deg);
 }
 
-img .p1bottomright{
+.p1bottomright{
 	margin-left: 60%;
     margin-top: 34%;
     height: 26%;
