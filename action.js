@@ -5,16 +5,17 @@ $(document).ready(function() {
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
+    console.log(scrollTop)
 
     if (scrollTop > 200 && scrollTop < 700 ){
       $(lister[0]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
+        'opacity': (( scrollTop - 200 ) / 500)
       }); 
     }
 
     if (scrollTop > 700 && scrollTop < 1200 ){
       $(lister[1]).css({
-        'opacity': (( scrollTop - 500 ) / 500)
+        'opacity': (( scrollTop - 700 ) / 500)
       }); 
     }
 
