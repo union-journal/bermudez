@@ -57,9 +57,10 @@ img{
 
 
 .p1left{
-	background-image: url('img/page_1_left.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	position: fixed;
+	margin-top:1%;
+	height: 56%;
+	margin-left: 19%;
 }
 
 .p1middle{
@@ -103,4 +104,9 @@ img{
 
 .invisible{
 	opacity:0;
+
+}
+
+.visible{
+	opacity:1;
 }

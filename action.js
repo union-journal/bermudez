@@ -7,34 +7,29 @@ $(document).ready(function() {
     var height = $(window).height();
     console.log(scrollTop)
 
-    if (scrollTop > 200 && scrollTop < 700 ){
-      $(lister[0]).css({
-        'opacity': (( scrollTop - 200 ) / 500)
-      }); 
+    if (scrollTop > 200 && scrollTop < 400 ){
+      $(lister[0]).removeClass("invisible")
+      $(lister[0]).addClass("visible")
     }
 
-    if (scrollTop > 700 && scrollTop < 1200 ){
-      $(lister[1]).css({
-        'opacity': (( scrollTop - 700 ) / 500)
-      }); 
+    if (scrollTop > 700 && scrollTop < 900 ){
+      $(lister[1]).removeClass("invisible")
+      $(lister[1]).addClass("visible")
     }
 
-    if (scrollTop > 1200 && scrollTop < 1700 ){
-      $(lister[2]).css({
-        'opacity': (( scrollTop - 1200 ) / 500)
-      }); 
+    if (scrollTop > 1200 && scrollTop < 1400 ){
+      $(lister[2]).removeClass("invisible")
+      $(lister[2]).addClass("visible")
     }
 
-    if (scrollTop > 1700 && scrollTop < 2200 ){
-      $(lister[3]).css({
-        'opacity': (( scrollTop - 1700 ) / 500)
-      }); 
+    if (scrollTop > 1700 && scrollTop < 1900 ){
+      $(lister[3]).removeClass("invisible")
+      $(lister[3]).addClass("visible")
     }
 
-    if (scrollTop > 2200 && scrollTop < 2700 ){
-      $(lister[4]).css({
-        'opacity': (( scrollTop - 2200 ) / 500)
-      }); 
+    if (scrollTop > 2200 && scrollTop < 2400 ){
+      $(lister[4]).removeClass("invisible")
+      $(lister[4]).addClass("visible")
     }
 
     if (scrollTop > 2700 && scrollTop < 3200 ){
