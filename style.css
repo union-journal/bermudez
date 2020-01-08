@@ -61,6 +61,8 @@ img{
 
 
 img .p1left{
+	left:20%;
+	display:block;
 }
 
 img .p1middle{
