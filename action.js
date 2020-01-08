@@ -1,7 +1,10 @@
 $(document).ready(function() {   
   var lister = $( "img" ).toArray();
   $('html, body').animate({scrollTop: $("#page").offset().top}, 2000);
-
+  for (let i = 0; i < 5; ++i) {
+    $(lister[i]).removeClass("visible")
+    $(lister[i]).addClass("invisible")
+  }
   console.log(lister)
 
   $(window).scroll(function () {
@@ -76,13 +79,27 @@ $(document).ready(function() {
 
 
     /* PAGE THREE */
-    if (scrollTop > 24200 && scrollTop < 24400 ){
+    if (scrollTop > 23200 && scrollTop < 23400 ){
       $(lister[9]).removeClass("visible")
       $(lister[9]).addClass("invisible")
 
       $(lister[10]).removeClass("invisible")
       $(lister[10]).addClass("visible")
     }
+
+    if (scrollTop > 25200 && scrollTop < 25400 ){
+      $(lister[11]).removeClass("invisible")
+      $(lister[11]).addClass("visible")
+    }
+    if (scrollTop > 27200 && scrollTop < 27400 ){
+      $(lister[12]).removeClass("invisible")
+      $(lister[12]).addClass("visible")
+    }
+    if (scrollTop > 29200 && scrollTop < 29400 ){
+      $(lister[13]).removeClass("invisible")
+      $(lister[13]).addClass("visible")
+    }
+
 
   });
 });
