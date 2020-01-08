@@ -58,19 +58,21 @@ img{
 
 .p1left{
 	position: fixed;
-
+	margin-top:1%;
 	height: 56%;
 	margin-left: 19%;
 }
 
 .p1middle{
 	position: fixed;
+	margin-top:1%;
 	height: 56%;
 	margin-left: 40%;
 }
 
 .p1right{
 	position: fixed;
+	margin-top:1%;
 	height: 56%;
 	margin-left: 54%;
 }
