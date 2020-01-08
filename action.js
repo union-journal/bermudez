@@ -1,5 +1,7 @@
 $(document).ready(function() {   
   var lister = $( "img" ).toArray();
+  $('html, body').animate({scrollTop: $("#page").offset().top}, 2000);
+
   console.log(lister)
 
   $(window).scroll(function () {
