@@ -7,6 +7,7 @@ $(document).ready(function() {
     var height = $(window).height();
     console.log(scrollTop)
 
+    /* FIRST PAGE */
     if (scrollTop > 200 && scrollTop < 400 ){
       $(lister[0]).removeClass("invisible")
       $(lister[0]).addClass("visible")
@@ -33,19 +34,13 @@ $(document).ready(function() {
     }
 
     if (scrollTop > 5200 && scrollTop < 5400 ){
-      
-    
-      $(lister[0]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
-      $(lister[1]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
-      $(lister[2]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
-      $(lister[3]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
-      $(lister[4]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      for (let i = 0; i < 5; ++i) {
+        $(lister[i]).removeClass("visible")
+        $(lister[i]).addClass("invisible")
 
-      $(lister[5]).css({'opacity': (( scrollTop - 2700 ) / 500) }); 
+      }
+      $(lister[5]).addClass("invisible")
+      $(lister[5]).addClass("visible")
     }
-
-
-
-
   });
 });
