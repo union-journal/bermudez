@@ -1,7 +1,7 @@
 $(document).ready(function() {   
   var lister = $( "img" ).toArray();
   $('html, body').animate({scrollTop: $("#page").offset().top}, 2000);
-  for (let i = 0; i < 5; ++i) {
+  for (let i = 0; i < 19; ++i) {
     $(lister[i]).removeClass("visible")
     $(lister[i]).addClass("invisible")
   }
