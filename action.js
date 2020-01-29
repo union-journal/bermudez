@@ -88,37 +88,53 @@ $(document).ready(function() {
     SECOND PAGE 
     
     */
-    if (scrollTop > 13200 && scrollTop < 13400 ){
-
-      $(lister[6]).removeClass("invisible")
-      $(lister[6]).addClass("visible")
+    if (scrollTop > 5200 && scrollTop < 5600 ){
+      $(lister[6]).css("opacity",  ($(window).scrollTop() -5200 )/ 400) 
+    }
+    if (scrollTop < 5200){
+      $(lister[6]).css("opacity",  0) 
     }
 
-    if (scrollTop > 15200 && scrollTop < 15400 ){
-      $(lister[7]).removeClass("invisible")
-      $(lister[7]).addClass("visible")
+    if (scrollTop > 5800 && scrollTop < 6200 ){
+      $(lister[7]).css("opacity",  ($(window).scrollTop() -5800 )/ 400) 
+    }
+    if (scrollTop < 5800){
+      $(lister[7]).css("opacity",  0) 
     }
 
-    if (scrollTop > 17200 && scrollTop < 17400 ){
-      $(lister[8]).removeClass("invisible")
-      $(lister[8]).addClass("visible")
+    if (scrollTop > 6400 && scrollTop < 6800){
+      $(lister[8]).css("opacity",  ($(window).scrollTop() -6400)/ 400) 
+    }
+    if (scrollTop < 6400){
+      $(lister[8]).css("opacity",  0) 
     }
 
-    if (scrollTop > 19200 && scrollTop < 19400 ){
-      for (let i = 5; i < 9; ++i) {
-        $(lister[i]).removeClass("visible")
-        $(lister[i]).addClass("invisible")
+    if (scrollTop > 7000 && scrollTop < 7400 ){
+      $(lister[6]).css("opacity",  1-($(window).scrollTop() -7000)/ 400) 
+      $(lister[7]).css("opacity",  1-($(window).scrollTop() -7000)/ 400) 
+      $(lister[8]).css("opacity",  1-($(window).scrollTop() -7000)/ 400) 
 
-      }
-      $(lister[9]).removeClass("invisible")
-      $(lister[9]).addClass("visible")
     }
 
+    if (scrollTop < 7400){
+      $(lister[9]).css("opacity",  0) 
+    }
 
-    /* PAGE THREE */
+    if (scrollTop > 7400 && scrollTop < 7800 ){
+      $(lister[9]).css("opacity",  ($(window).scrollTop() -7400)/ 400) 
+    }
+
+    if (scrollTop > 7800 && scrollTop < 8200 ){
+      $(lister[9]).css("opacity",  1-($(window).scrollTop() -7800)/ 400) 
+    }
+    /* 
+    
+    PAGE THREE
+    
+    */
+   
     if (scrollTop > 23200 && scrollTop < 23400 ){
-      $(lister[9]).removeClass("visible")
-      $(lister[9]).addClass("invisible")
+
 
       $(lister[10]).removeClass("invisible")
       $(lister[10]).addClass("visible")
