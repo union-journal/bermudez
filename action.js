@@ -161,43 +161,67 @@ $(document).ready(function() {
       $(lister[13]).css("opacity",  ($(window).scrollTop() -10400)/ 400) 
     }
        
-    if (scrollTop > 10800){
+    if (scrollTop > 11000 && scrollTop < 11400){
+      $(lister[10]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
+      $(lister[11]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
+      $(lister[12]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
+      $(lister[13]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
+    }
+
+    if (scrollTop > 11400){
       $(lister[10]).css("opacity", 0) 
       $(lister[11]).css("opacity", 0) 
       $(lister[12]).css("opacity", 0) 
       $(lister[13]).css("opacity", 0) 
     }
 
-    if (scrollTop > 10800 && scrollTop < 11200 ){
-      $(lister[14]).css("opacity",  ($(window).scrollTop() -10800)/ 400) 
+    if (scrollTop > 11400 && scrollTop < 11800 ){
+      $(lister[14]).css("opacity",  ($(window).scrollTop() -11400)/ 400) 
     }
     
-    if (scrollTop > 11200 && scrollTop < 11600 ){
-      $(lister[14]).css("opacity", 1 - ($(window).scrollTop() -11200)/ 400) 
+    if (scrollTop > 11800 && scrollTop < 12200 ){
+      $(lister[14]).css("opacity", 1 - ($(window).scrollTop() -11800)/ 400) 
     }
 
-    /* PAGE FOUR */
-    if (scrollTop > 33200 && scrollTop < 33400 ){
-      $(lister[14]).removeClass("visible")
-      $(lister[14]).addClass("invisible")
-
-      $(lister[15]).removeClass("invisible")
-      $(lister[15]).addClass("visible")
+    if (scrollTop > 12200){
+      $(lister[14]).css("opacity", 0) 
     }
 
-    if (scrollTop > 35200 && scrollTop < 35400 ){
-      $(lister[16]).removeClass("invisible")
-      $(lister[16]).addClass("visible")
-    }
-    if (scrollTop > 37200 && scrollTop < 37400 ){
-      $(lister[17]).removeClass("invisible")
-      $(lister[17]).addClass("visible")
-    }
-    if (scrollTop > 39200 && scrollTop < 39400 ){
-      $(lister[18]).removeClass("invisible")
-      $(lister[18]).addClass("visible")
+    /*
+    
+    PAGE FOUR 
+    
+    */
+    if (scrollTop > 12400 && scrollTop < 12800 ){
+      $(lister[15]).css("opacity",  ($(window).scrollTop() -12400)/ 400) 
     }
 
+    if (scrollTop > 13000 && scrollTop < 13400 ){
+      $(lister[16]).css("opacity",  ($(window).scrollTop() -13000)/ 400) 
+    }
+
+    if (scrollTop > 13600 && scrollTop < 14000 ){
+      $(lister[17]).css("opacity",  ($(window).scrollTop() -13600)/ 400) 
+    }
+
+    if (scrollTop > 14200 && scrollTop < 14600 ){
+      $(lister[18]).css("opacity",  ($(window).scrollTop() -14200)/ 400) 
+    }
+
+    if (scrollTop > 14800 && scrollTop < 15200){
+      $(lister[15]).css("opacity",  1-($(window).scrollTop() -14800)/ 400) 
+      $(lister[16]).css("opacity",  1-($(window).scrollTop() -14800)/ 400) 
+      $(lister[17]).css("opacity",  1-($(window).scrollTop() -14800)/ 400) 
+      $(lister[18]).css("opacity",  1-($(window).scrollTop() -14800)/ 400) 
+    }
+
+    if (scrollTop > 15200){
+      $(lister[15]).css("opacity", 0) 
+      $(lister[16]).css("opacity", 0) 
+      $(lister[17]).css("opacity", 0) 
+      $(lister[18]).css("opacity", 0) 
+
+    }
 
   });
 });

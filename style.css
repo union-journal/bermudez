@@ -157,13 +157,14 @@ img{
 	position: fixed;
     top: 46%;
     height: 37%;
-    left: 71%;
+    left: 73%;
 }
 
 .visual{
-	position: fixed;
+    position: fixed;
     top: 50%;
-    left: 18%;
+    left: 50%;
+    margin-left: -2048px;
     margin-top: -600px;
     height: 1200px;
 }
