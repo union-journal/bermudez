@@ -13,27 +13,20 @@ $(document).ready(function() {
     console.log(scrollTop)
 
     /* FIRST PAGE */
-    if (scrollTop > 0 && scrollTop < 800 ){
-      $(lister[0]).css("opacity",  ($(window).scrollTop()) / 800) 
+    if (scrollTop > 400 && scrollTop < 800 ){
+      $(lister[0]).css("opacity",  ($(window).scrollTop()) / 400) 
     }
 
-    if (scrollTop > 800 && scrollTop < 1600 ){
-      $(lister[0]).css("opacity", 1- ($(window).scrollTop() - 800) / 800) 
+    if (scrollTop > 1200 && scrollTop < 1600 ){
+      $(lister[1]).css("opacity",  ($(window).scrollTop()) / 400) 
     }
 
-    if (scrollTop > 2200 && scrollTop < 2400 ){
-      $(lister[1]).removeClass("invisible")
-      $(lister[1]).addClass("visible")
+    if (scrollTop > 2000 && scrollTop < 2400 ){
+      $(lister[2]).css("opacity",  ($(window).scrollTop()) / 400) 
     }
 
-    if (scrollTop > 4200 && scrollTop < 4400 ){
-      $(lister[2]).removeClass("invisible")
-      $(lister[2]).addClass("visible")
-    }
-
-    if (scrollTop > 6200 && scrollTop < 6400 ){
-      $(lister[3]).removeClass("invisible")
-      $(lister[3]).addClass("visible")
+    if (scrollTop > 2800 && scrollTop < 3200 ){
+      $(lister[3]).css("opacity",  ($(window).scrollTop()) / 400) 
     }
 
     if (scrollTop > 8200 && scrollTop < 8400 ){
