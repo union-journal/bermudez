@@ -26,7 +26,7 @@ $(document).ready(function() {
       $(lister[0]).css("opacity",  0) 
     }
     if (scrollTop > 600 && scrollTop < 3400){
-      $(lister[0]).css("opacity",  0) 
+      $(lister[0]).css("opacity",  1) 
     }
 
     ///OBJECT 2///
@@ -235,7 +235,7 @@ $(document).ready(function() {
       $(lister[18]).css("opacity",  ($(window).scrollTop() -14200)/ 400) 
     }
     if (scrollTop < 14200){
-      $(lister[17]).css("opacity",  0) 
+      $(lister[18]).css("opacity",  0) 
     }
 
     if (scrollTop > 14800 && scrollTop < 15200){
