@@ -57,14 +57,21 @@ $(document).ready(function() {
 
       $(lister[5]).css("opacity",  ($(window).scrollTop() -3400 )/ 400) 
     }
+
+    if (scrollTop > 3800){
+      $(lister[0]).css("opacity", 0) 
+      $(lister[1]).css("opacity", 0) 
+      $(lister[2]).css("opacity", 0) 
+      $(lister[3]).css("opacity", 0) 
+      $(lister[4]).css("opacity", 0) 
+    }
+
     if (scrollTop < 3400){
       $(lister[5]).css("opacity",  0) 
     }
 
     /* SECOND PAGE */
     if (scrollTop > 13200 && scrollTop < 13400 ){
-      $(lister[5]).removeClass("visible")
-      $(lister[5]).addClass("invisible")
 
       $(lister[6]).removeClass("invisible")
       $(lister[6]).addClass("visible")
