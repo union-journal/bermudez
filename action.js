@@ -16,9 +16,13 @@ $(document).ready(function() {
     if (scrollTop > 200 && scrollTop < 600 ){
       $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 400) 
     }
+    if (scrollTop < 200){
+      $(lister[0]).css("opacity",  0) 
+    }
 
-    if (scrollTop > 1200 && scrollTop < 1600 ){
-      $(lister[1]).css("opacity",  ($(window).scrollTop() -1200 )/ 400) 
+
+    if (scrollTop > 800 && scrollTop < 1200 ){
+      $(lister[1]).css("opacity",  ($(window).scrollTop() -800 )/ 400) 
     }
 
     if (scrollTop > 2000 && scrollTop < 2400 ){
