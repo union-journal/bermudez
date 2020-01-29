@@ -14,7 +14,11 @@ $(document).ready(function() {
 
     /* FIRST PAGE */
     if (scrollTop > 200 && scrollTop < 800 ){
-      $(lister[0]).css("opacity", 1- $(window).scrollTop() / 600) 
+      $(lister[0]).css("opacity",  ($(window).scrollTop()- 200) / 600) 
+    }
+
+    if (scrollTop > 800 && scrollTop < 1400 ){
+      $(lister[0]).css("opacity", 1- ($(window).scrollTop() - 800) / 600) 
     }
 
     if (scrollTop > 2200 && scrollTop < 2400 ){
