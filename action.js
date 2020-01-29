@@ -14,19 +14,19 @@ $(document).ready(function() {
 
     /* FIRST PAGE */
     if (scrollTop > 400 && scrollTop < 800 ){
-      $(lister[0]).css("opacity",  ($(window).scrollTop()) / 400) 
+      $(lister[0]).css("opacity",  ($(window).scrollTop()) -400 / 400) 
     }
 
     if (scrollTop > 1200 && scrollTop < 1600 ){
-      $(lister[1]).css("opacity",  ($(window).scrollTop()) / 400) 
+      $(lister[1]).css("opacity",  ($(window).scrollTop()) -1200 / 400) 
     }
 
     if (scrollTop > 2000 && scrollTop < 2400 ){
-      $(lister[2]).css("opacity",  ($(window).scrollTop()) / 400) 
+      $(lister[2]).css("opacity",  ($(window).scrollTop()) -2000/ 400) 
     }
 
     if (scrollTop > 2800 && scrollTop < 3200 ){
-      $(lister[3]).css("opacity",  ($(window).scrollTop()) / 400) 
+      $(lister[3]).css("opacity",  ($(window).scrollTop()) -2800 / 400) 
     }
 
     if (scrollTop > 8200 && scrollTop < 8400 ){
