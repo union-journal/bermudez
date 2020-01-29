@@ -41,9 +41,11 @@ $(document).ready(function() {
       $(lister[3]).css("opacity",  0) 
     }
 
-    if (scrollTop > 8200 && scrollTop < 8400 ){
-      $(lister[4]).removeClass("invisible")
-      $(lister[4]).addClass("visible")
+    if (scrollTop > 2600 && scrollTop < 3000 ){
+      $(lister[4]).css("opacity",  ($(window).scrollTop() -2600 )/ 400) 
+    }
+    if (scrollTop < 2600){
+      $(lister[4]).css("opacity",  0) 
     }
 
     if (scrollTop > 10200 && scrollTop < 10400 ){
