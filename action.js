@@ -12,7 +12,11 @@ $(document).ready(function() {
     var height = $(window).height();
     console.log(scrollTop)
 
-    /* FIRST PAGE */
+    /* 
+    
+    FIRST PAGE 
+    
+    */
     if (scrollTop > 200 && scrollTop < 600 ){
       $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 400) 
     }
@@ -54,10 +58,12 @@ $(document).ready(function() {
       $(lister[2]).css("opacity",  1- ($(window).scrollTop() -3400 )/ 400) 
       $(lister[3]).css("opacity",  1- ($(window).scrollTop() -3400 )/ 400) 
       $(lister[4]).css("opacity",  1- ($(window).scrollTop() -3400 )/ 400) 
-
-      $(lister[5]).css("opacity",  ($(window).scrollTop() -3400 )/ 400) 
     }
 
+    if (scrollTop > 3800 && scrollTop < 4400 ){
+      $(lister[5]).css("opacity",  ($(window).scrollTop() -3800 )/ 400) 
+
+    }
     if (scrollTop > 3800){
       $(lister[0]).css("opacity", 0) 
       $(lister[1]).css("opacity", 0) 
@@ -66,11 +72,15 @@ $(document).ready(function() {
       $(lister[4]).css("opacity", 0) 
     }
 
-    if (scrollTop < 3400){
+    if (scrollTop < 3800){
       $(lister[5]).css("opacity",  0) 
     }
 
-    /* SECOND PAGE */
+    /* 
+    
+    SECOND PAGE 
+    
+    */
     if (scrollTop > 13200 && scrollTop < 13400 ){
 
       $(lister[6]).removeClass("invisible")
