@@ -48,12 +48,15 @@ $(document).ready(function() {
       $(lister[4]).css("opacity",  0) 
     }
 
-    if (scrollTop > 3200 && scrollTop < 3600 ){
-      for (let i = 0; i < 5; ++i) {
-        $(lister[i]).css("opacity",  (1-$(window).scrollTop() -3200 )/ 400) 
-      }
+    if (scrollTop > 3400 && scrollTop < 3800 ){
+      $(lister[0]).css("opacity",  (1-$(window).scrollTop() -3400 )/ 400) 
+      $(lister[1]).css("opacity",  (1-$(window).scrollTop() -3400 )/ 400) 
+      $(lister[2]).css("opacity",  (1-$(window).scrollTop() -3400 )/ 400) 
+      $(lister[3]).css("opacity",  (1-$(window).scrollTop() -3400 )/ 400) 
+      $(lister[4]).css("opacity",  (1-$(window).scrollTop() -3400 )/ 400) 
 
-      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -3200 )/ 400) 
+
+      $(lister[5]).css("opacity",  ($(window).scrollTop() -3400 )/ 400) 
     }
 
     /* SECOND PAGE */
