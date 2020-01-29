@@ -55,7 +55,9 @@ img{
 	transition: all 0.5s ease-in-out;
 }
 
-
+.invisible{
+    opacity:0;
+}
 .p1left{
 	position: fixed;
 	margin-top:1%;
@@ -118,7 +120,7 @@ img{
 	position: fixed;
     top: 15%;
     height: 70%;
-    left: 60%;
+    left: 58%;
 }
 
 .unionblues{
