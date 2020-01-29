@@ -127,6 +127,18 @@ $(document).ready(function() {
     if (scrollTop > 7800 && scrollTop < 8200 ){
       $(lister[9]).css("opacity",  1-($(window).scrollTop() -7800)/ 400) 
     }
+    
+    
+    if (scrollTop > 7400){
+      $(lister[6]).css("opacity", 0) 
+      $(lister[7]).css("opacity", 0) 
+      $(lister[8]).css("opacity", 0) 
+    }
+
+    if (scrollTop > 8200){
+      $(lister[9]).css("opacity",  0) 
+    }
+    
     /* 
     
     PAGE THREE
