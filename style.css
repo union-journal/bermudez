@@ -166,7 +166,7 @@ img{
     left: 50%;
     margin-left: -2048px;
     margin-top: -600px;
-    height: 1200px;
+    height: 1200px; 
 }
 
 .p4top{
@@ -187,5 +187,5 @@ img{
     position: fixed;
     top: 42%;
     height: 44%;
-    left: 47%;
+    left: 49%;
 }
