@@ -191,7 +191,136 @@ img{
 }
 
 @media only screen and (max-width: 1600px) {
-    body {
-      background-color: lightblue;
+    .p1left{
+        position: fixed;
+        margin-top:1%;
+        height: 56%;
+        margin-left: 19%;
     }
-  }
+    
+    .p1middle{
+        position: fixed;
+        margin-top:1%;
+        height: 56%;
+        margin-left: 39.5%;
+    }
+    
+    .p1right{
+        position: fixed;
+        margin-top:1%;
+        height: 56%;
+        margin-left: 53.5%;
+    }
+    
+    .p1bmiddle{
+        position: fixed;
+        margin-left: 39%;
+        margin-top: 23%;
+        height: 35%;
+        transform: rotate(17deg);
+    }
+    
+    .p1bright{
+        position: fixed;
+        margin-left: 59%;
+        margin-top: 36%;
+        height: 24%;
+    }
+    
+    .coopertown{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -170px;
+        margin-left: -150px;
+        height: 335px;
+        width: 293px;
+    }
+    .p2left{
+        position: fixed;
+        top: 15%;
+        height: 70%;
+        left: 14%;
+    }
+    
+    .p2middle{
+        position: fixed;
+        top: 15%;
+        height: 70%;
+        left: 43.25%;
+    }
+    
+    .p2right{
+        position: fixed;
+        top: 15%;
+        height: 70%;
+        left: 63%;
+    }
+    
+    .unionblues{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -920px;
+        margin-top: -560px;
+        height: 1200px;
+    }
+    
+    .p3tright{
+        position: fixed;
+        top: 2%;
+        height: 42%;
+        left: 14%;
+    }
+    
+    .p3tleft{
+        position: fixed;
+        top: 30%;
+        height: 42%;
+        left: 14.5%;
+    }
+    
+    .p3bleft{
+        position: fixed;
+        top: 56%;
+        height: 52%;
+        left: 41%;
+    }
+    
+    .p3bright{
+        position: fixed;
+        top: 46%;
+        height: 37%;
+        left: 73%;
+    }
+    
+    .visual{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -2048px;
+        margin-top: -600px;
+        height: 1200px; 
+    }
+    
+    .p4top{
+        position: fixed;
+        top: 4%;
+        height: 56%;
+        left: 38.5%;
+    }
+    
+    .p4left{
+        position: fixed;
+        top: 41%;
+        height: 45%;
+        left: 23%;
+    }
+    
+    .p4right{
+        position: fixed;
+        top: 42%;
+        height: 44%;
+        left: 49%;
+    }
+}
