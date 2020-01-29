@@ -64,6 +64,13 @@ $(document).ready(function() {
       $(lister[5]).css("opacity",  ($(window).scrollTop() -3800 )/ 400) 
 
     }
+    
+    if (scrollTop > 4400 && scrollTop < 4800 ){
+      $(lister[5]).css("opacity",  ($(window).scrollTop() -4400 )/ 400) 
+
+    }
+
+
     if (scrollTop > 3800){
       $(lister[0]).css("opacity", 0) 
       $(lister[1]).css("opacity", 0) 
