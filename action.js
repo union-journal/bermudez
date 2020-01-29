@@ -20,17 +20,25 @@ $(document).ready(function() {
       $(lister[0]).css("opacity",  0) 
     }
 
-
     if (scrollTop > 800 && scrollTop < 1200 ){
       $(lister[1]).css("opacity",  ($(window).scrollTop() -800 )/ 400) 
     }
-
-    if (scrollTop > 2000 && scrollTop < 2400 ){
-      $(lister[2]).css("opacity",  ($(window).scrollTop() -2000)/ 400) 
+    if (scrollTop < 800){
+      $(lister[1]).css("opacity",  0) 
     }
 
-    if (scrollTop > 2800 && scrollTop < 3200 ){
-      $(lister[3]).css("opacity",  ($(window).scrollTop() -2800 )/ 400) 
+    if (scrollTop > 1400 && scrollTop < 1800){
+      $(lister[2]).css("opacity",  ($(window).scrollTop() -1400)/ 400) 
+    }
+    if (scrollTop < 1400){
+      $(lister[2]).css("opacity",  0) 
+    }
+
+    if (scrollTop > 2000 && scrollTop < 2400 ){
+      $(lister[3]).css("opacity",  ($(window).scrollTop() -2000 )/ 400) 
+    }
+    if (scrollTop < 2000){
+      $(lister[3]).css("opacity",  0) 
     }
 
     if (scrollTop > 8200 && scrollTop < 8400 ){
