@@ -67,14 +67,13 @@ img{
 	position: fixed;
 	margin-top:1%;
 	height: 56%;
-	margin-left: 40%;
-}
+    margin-left: 42.5%;}
 
 .p1right{
 	position: fixed;
 	margin-top:1%;
 	height: 56%;
-	margin-left: 54%;
+	margin-left: 58%;
 }
 
 .p1bmiddle{
@@ -101,16 +100,6 @@ img{
     height: 1200px;
     width: 1000px;
 }
-
-.invisible{
-	opacity:0;
-
-}
-
-.visible{
-	opacity:1;
-}
-
 .p2left{
 	position: fixed;
     top: 15%;
@@ -122,7 +111,7 @@ img{
 	position: fixed;
     top: 15%;
     height: 70%;
-    left: 42.5%;
+    left: 42.25%;
 }
 
 .p2right{
