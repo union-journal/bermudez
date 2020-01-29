@@ -66,7 +66,7 @@ $(document).ready(function() {
     }
     
     if (scrollTop > 4400 && scrollTop < 4800 ){
-      $(lister[5]).css("opacity",  ($(window).scrollTop() -4400 )/ 400) 
+      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -4400 )/ 400) 
 
     }
 
