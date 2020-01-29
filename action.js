@@ -13,8 +13,8 @@ $(document).ready(function() {
     console.log(scrollTop)
 
     /* FIRST PAGE */
-    if (scrollTop > 400 && scrollTop < 800 ){
-      $(lister[0]).css("opacity",  ($(window).scrollTop()) -400 / 400) 
+    if (scrollTop > 200 && scrollTop < 600 ){
+      $(lister[0]).css("opacity",  ($(window).scrollTop()) -200 / 400) 
     }
 
     if (scrollTop > 1200 && scrollTop < 1600 ){
