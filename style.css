@@ -291,16 +291,16 @@ img{
         position: fixed;
         top: 46%;
         height: 37%;
-        left: 73%;
+        left: 71%;
     }
     
     .visual{
         position: fixed;
         top: 50%;
         left: 50%;
-        margin-left: -2048px;
-        margin-top: -600px;
-        height: 1200px; 
+        margin-left: -490px;
+        margin-top: -155px;
+        height: 281px;
     }
     
     .p4top{
