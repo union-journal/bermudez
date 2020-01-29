@@ -13,9 +13,8 @@ $(document).ready(function() {
     console.log(scrollTop)
 
     /* FIRST PAGE */
-    if (scrollTop > 200 && scrollTop < 400 ){
-      $(lister[0]).removeClass("invisible")
-      $(lister[0]).addClass("visible")
+    if (scrollTop > 200 && scrollTop < 800 ){
+      $(lister[0]).css("opacity", 1- $(window).scrollTop() / 600) 
     }
 
     if (scrollTop > 2200 && scrollTop < 2400 ){
