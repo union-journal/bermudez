@@ -1,6 +1,6 @@
 $(document).ready(function() {   
   var lister = $( "img" ).toArray();
-  $(window).scrollTop(0); 
+  $("html, body").animate({ scrollTop: 0 }, "slow");
   for (let i = 0; i < 19; ++i) {
     $(lister[i]).removeClass("visible")
     $(lister[i]).addClass("invisible")
