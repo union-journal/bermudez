@@ -48,14 +48,12 @@ $(document).ready(function() {
       $(lister[4]).css("opacity",  0) 
     }
 
-    if (scrollTop > 10200 && scrollTop < 10400 ){
+    if (scrollTop > 3200 && scrollTop < 3600 ){
       for (let i = 0; i < 5; ++i) {
-        $(lister[i]).removeClass("visible")
-        $(lister[i]).addClass("invisible")
-
+        $(lister[i]).css("opacity",  (1-$(window).scrollTop() -3200 )/ 400) 
       }
-      $(lister[5]).removeClass("invisible")
-      $(lister[5]).addClass("visible")
+
+      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -3200 )/ 400) 
     }
 
     /* SECOND PAGE */

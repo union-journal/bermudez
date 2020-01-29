@@ -83,14 +83,15 @@ img{
     margin-left: 39%;
     margin-top: 27%;
     height: 38%;
-    transform: rotate(18deg);
+    transform: rotate(16deg);
 }
 
 .p1bright{
-	position: fixed;
-	margin-left: 60%;
-    margin-top: 34%;
-    height: 26%;
+    position: fixed;
+    margin-left: 63%;
+    margin-top: 43%;
+    height: 22%;
+}
 }
 
 .coopertown{
