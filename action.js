@@ -101,8 +101,8 @@ $(document).ready(function() {
 
     }
     
-    if (scrollTop > 7700 && scrollTop < 8700 ){
-      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -7700 )/ 1000) 
+    if (scrollTop > 8700 && scrollTop < 9700 ){
+      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -8700 )/ 1000) 
 
     }
 
@@ -110,7 +110,7 @@ $(document).ready(function() {
       $(lister[5]).css("opacity",  0) 
     }
 
-    if (scrollTop > 8700){
+    if (scrollTop > 9700){
       $(lister[5]).css("opacity",  0) 
     }
 
@@ -122,50 +122,50 @@ $(document).ready(function() {
 
     ///OBJECT 7///
 
-    if (scrollTop > 9000 && scrollTop < 10000 ){
-      $(lister[6]).css("opacity",  ($(window).scrollTop() -9000 )/ 1000) 
+    if (scrollTop > 10000 && scrollTop < 11000 ){
+      $(lister[6]).css("opacity",  ($(window).scrollTop() -10000 )/ 1000) 
     }
-    if (scrollTop < 9000){
+    if (scrollTop < 10000){
       $(lister[6]).css("opacity",  0) 
     }
-    if (scrollTop > 10000 && scrollTop < 12000){
+    if (scrollTop > 11000 && scrollTop < 13500){
       $(lister[6]).css("opacity",  1) 
     }
 
     ///OBJECT 8///
 
-    if (scrollTop > 10000 && scrollTop < 11000 ){
-      $(lister[7]).css("opacity",  ($(window).scrollTop() -10000 )/ 1000) 
+    if (scrollTop > 11000 && scrollTop < 12000 ){
+      $(lister[7]).css("opacity",  ($(window).scrollTop() -11000 )/ 1000) 
     }
-    if (scrollTop < 10000){
+    if (scrollTop < 11000){
       $(lister[7]).css("opacity",  0) 
     }
-    if (scrollTop > 11000 && scrollTop < 12000){
+    if (scrollTop > 12000 && scrollTop < 13500){
       $(lister[7]).css("opacity",  1) 
     }
 
     ///OBJECT 9///
 
-    if (scrollTop > 11000 && scrollTop < 12000){
-      $(lister[8]).css("opacity",  ($(window).scrollTop() -11000)/ 1000) 
+    if (scrollTop > 12000 && scrollTop < 13000){
+      $(lister[8]).css("opacity",  ($(window).scrollTop() -13000)/ 1000) 
     }
-    if (scrollTop < 11000){
+    if (scrollTop < 12000){
       $(lister[8]).css("opacity",  0) 
     }
-    if (scrollTop > 12000 && scrollTop < 12500){
+    if (scrollTop > 13000 && scrollTop < 13500){
       $(lister[8]).css("opacity",  1) 
     }
 
     ///Transition ///
 
-    if (scrollTop > 12500 && scrollTop < 13500 ){
-      $(lister[6]).css("opacity",  1-($(window).scrollTop() -12500)/ 1000) 
-      $(lister[7]).css("opacity",  1-($(window).scrollTop() -12500)/ 1000) 
-      $(lister[8]).css("opacity",  1-($(window).scrollTop() -12500)/ 1000) 
+    if (scrollTop > 13500 && scrollTop < 14500 ){
+      $(lister[6]).css("opacity",  1-($(window).scrollTop() -13500)/ 1000) 
+      $(lister[7]).css("opacity",  1-($(window).scrollTop() -13500)/ 1000) 
+      $(lister[8]).css("opacity",  1-($(window).scrollTop() -13500)/ 1000) 
 
     }
 
-    if (scrollTop > 13500){
+    if (scrollTop > 14500){
       $(lister[6]).css("opacity", 0) 
       $(lister[7]).css("opacity", 0) 
       $(lister[8]).css("opacity", 0) 
@@ -173,19 +173,19 @@ $(document).ready(function() {
 
     /// Object 10 ///
 
-    if (scrollTop < 13500){
+    if (scrollTop < 14500){
       $(lister[9]).css("opacity",  0) 
     }
 
-    if (scrollTop > 13500 && scrollTop < 14500 ){
-      $(lister[9]).css("opacity",  ($(window).scrollTop() -13500)/1000) 
+    if (scrollTop > 14500 && scrollTop < 15500 ){
+      $(lister[9]).css("opacity",  ($(window).scrollTop() -14500)/1000) 
     }
 
-    if (scrollTop > 14500 && scrollTop < 15500 ){
-      $(lister[9]).css("opacity",  1-($(window).scrollTop() -14500)/ 1000) 
+    if (scrollTop > 16500 && scrollTop < 17500 ){
+      $(lister[9]).css("opacity",  1-($(window).scrollTop() -15500)/ 1000) 
     }
     
-    if (scrollTop > 15500){
+    if (scrollTop > 17500){
       $(lister[9]).css("opacity",  0) 
     }
     
@@ -195,49 +195,73 @@ $(document).ready(function() {
     
     */
    
-    if (scrollTop > 8600 && scrollTop < 9000 ){
-      $(lister[10]).css("opacity",  ($(window).scrollTop() -8600)/ 400) 
+    /// Object 11 ///
+
+    if (scrollTop > 18000 && scrollTop < 19000 ){
+      $(lister[10]).css("opacity",  ($(window).scrollTop() -18000)/ 1000) 
     }
-    if (scrollTop < 8600){
+    if (scrollTop < 18000){
       $(lister[10]).css("opacity",  0) 
     }
-
-    if (scrollTop > 9200 && scrollTop < 9600 ){
-      $(lister[11]).css("opacity",  ($(window).scrollTop() -9200)/ 400) 
+    if (scrollTop > 19000 && scrollTop < 23000){
+      $(lister[10]).css("opacity",  1) 
     }
-    if (scrollTop < 9200){
+
+    /// Object 12 ///
+
+    if (scrollTop > 19000 && scrollTop < 20000 ){
+      $(lister[11]).css("opacity",  ($(window).scrollTop() -19000)/ 1000) 
+    }
+    if (scrollTop < 19000){
       $(lister[11]).css("opacity",  0) 
     }
-
-    if (scrollTop > 9800 && scrollTop < 10200 ){
-      $(lister[12]).css("opacity",  ($(window).scrollTop() -9800)/ 400) 
+    if (scrollTop > 20000 && scrollTop < 23000){
+      $(lister[11]).css("opacity",  1) 
     }
-    if (scrollTop < 9800){
+    
+    /// Object 13 ///
+
+    if (scrollTop > 20000 && scrollTop < 21000 ){
+      $(lister[12]).css("opacity",  ($(window).scrollTop() -20000)/ 400) 
+    }
+    if (scrollTop < 20000){
       $(lister[12]).css("opacity",  0) 
     }
+    if (scrollTop > 21000 && scrollTop < 23000){
+      $(lister[12]).css("opacity",  1) 
+    }
 
-    if (scrollTop > 10400 && scrollTop < 10800 ){
+    /// Object 14 ///
+
+    if (scrollTop > 21000 && scrollTop < 22000 ){
       $(lister[13]).css("opacity",  ($(window).scrollTop() -10400)/ 400) 
     }
-    if (scrollTop < 10400){
+    if (scrollTop < 21000){
       $(lister[13]).css("opacity",  0) 
     }
-       
-    if (scrollTop > 11000 && scrollTop < 11400){
+    if (scrollTop > 22000 && scrollTop < 23000){
+      $(lister[13]).css("opacity",  1) 
+    }
+
+    /// Transition ///
+
+    if (scrollTop > 23000 && scrollTop < 24000){
       $(lister[10]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
       $(lister[11]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
       $(lister[12]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
       $(lister[13]).css("opacity",  1-($(window).scrollTop() -11000)/ 400) 
     }
 
-    if (scrollTop > 11400){
+    if (scrollTop > 24000){
       $(lister[10]).css("opacity", 0) 
       $(lister[11]).css("opacity", 0) 
       $(lister[12]).css("opacity", 0) 
       $(lister[13]).css("opacity", 0) 
     }
 
-    if (scrollTop < 11400){
+    /// Object 15 ///
+
+    if (scrollTop < 23000){
       $(lister[14]).css("opacity", 0) 
     }
 
