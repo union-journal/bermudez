@@ -25,7 +25,7 @@ $(document).ready(function() {
     if (scrollTop < 200){
       $(lister[0]).css("opacity",  0) 
     }
-    if (scrollTop > 1000 && scrollTop < 3400){
+    if (scrollTop > 1000 && scrollTop < 6200){
       $(lister[0]).css("opacity",  1) 
     }
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
     if (scrollTop < 1200){
       $(lister[1]).css("opacity",  0) 
     }
-    if (scrollTop > 2200 && scrollTop < 3400){
+    if (scrollTop > 2200 && scrollTop < 6200){
       $(lister[1]).css("opacity",  1) 
     }
 
@@ -48,7 +48,7 @@ $(document).ready(function() {
     if (scrollTop < 2200){
       $(lister[2]).css("opacity",  0) 
     }
-    if (scrollTop > 3200 && scrollTop <10400){
+    if (scrollTop > 3200 && scrollTop <6200){
       $(lister[2]).css("opacity",  1) 
     }
 
@@ -60,7 +60,7 @@ $(document).ready(function() {
     if (scrollTop < 3200){
       $(lister[3]).css("opacity",  0) 
     }
-    if (scrollTop > 4200 && scrollTop < 15400){
+    if (scrollTop > 4200 && scrollTop < 6200){
       $(lister[3]).css("opacity",  1) 
     }
 
@@ -72,7 +72,7 @@ $(document).ready(function() {
     if (scrollTop < 4200){
       $(lister[4]).css("opacity",  0) 
     }
-    if (scrollTop > 5200 && scrollTop < 16400){
+    if (scrollTop > 5200 && scrollTop < 6200){
       $(lister[4]).css("opacity",  1) 
     }
 
@@ -102,7 +102,7 @@ $(document).ready(function() {
     }
     
     if (scrollTop > 8700 && scrollTop < 9700 ){
-      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -8700 )/ 1000) 
+      $(lister[5]).css("opacity",  1- ($(window).scrollTop() -8700 )/ 1000) 
 
     }
 
