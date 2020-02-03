@@ -182,7 +182,7 @@ $(document).ready(function() {
     }
 
     if (scrollTop > 16500 && scrollTop < 17500 ){
-      $(lister[9]).css("opacity",  1-($(window).scrollTop() -15500)/ 1000) 
+      $(lister[9]).css("opacity",  1-($(window).scrollTop() -16500)/ 1000) 
     }
     
     if (scrollTop > 17500){
