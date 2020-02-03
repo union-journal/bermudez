@@ -18,6 +18,9 @@ $(document).ready(function() {
     
     */
 
+    for (let k = 0; k < lister.length(); k++) {
+    }
+
     ///OBJECT 1///
     if (scrollTop > 200 && scrollTop < 1200 ){
       $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 1000) 
@@ -48,7 +51,7 @@ $(document).ready(function() {
     if (scrollTop < 2200){
       $(lister[2]).css("opacity",  0) 
     }
-    if (scrollTop > 3200 && scrollTop < 5400){
+    if (scrollTop > 3200 && scrollTop <10400){
       $(lister[2]).css("opacity",  1) 
     }
 
@@ -60,7 +63,7 @@ $(document).ready(function() {
     if (scrollTop < 3200){
       $(lister[3]).css("opacity",  0) 
     }
-    if (scrollTop > 4200 && scrollTop < 5400){
+    if (scrollTop > 4200 && scrollTop < 15400){
       $(lister[3]).css("opacity",  1) 
     }
 
@@ -72,7 +75,7 @@ $(document).ready(function() {
     if (scrollTop < 4200){
       $(lister[4]).css("opacity",  0) 
     }
-    if (scrollTop > 5200 && scrollTop < 6400){
+    if (scrollTop > 5200 && scrollTop < 16400){
       $(lister[4]).css("opacity",  1) 
     }
 
