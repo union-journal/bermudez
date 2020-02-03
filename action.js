@@ -18,7 +18,7 @@ $(document).ready(function() {
     
     */
 
-    for (let k = 0; k < lister.length(); k++) {
+    for (let k = 0; k < lister.length; k++) {
     }
 
     ///OBJECT 1///
