@@ -147,7 +147,7 @@ $(document).ready(function() {
     ///OBJECT 9///
 
     if (scrollTop > 12000 && scrollTop < 13000){
-      $(lister[8]).css("opacity",  ($(window).scrollTop() -13000)/ 1000) 
+      $(lister[8]).css("opacity",  ($(window).scrollTop() -12000)/ 1000) 
     }
     if (scrollTop < 12000){
       $(lister[8]).css("opacity",  0) 
