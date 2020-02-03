@@ -19,13 +19,13 @@ $(document).ready(function() {
     */
 
     ///OBJECT 1///
-    if (scrollTop > 200 && scrollTop < 600 ){
-      $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 400) 
+    if (scrollTop > 200 && scrollTop < 1000 ){
+      $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 800) 
     }
     if (scrollTop < 200){
       $(lister[0]).css("opacity",  0) 
     }
-    if (scrollTop > 600 && scrollTop < 3400){
+    if (scrollTop > 1000 && scrollTop < 3400){
       $(lister[0]).css("opacity",  1) 
     }
 
