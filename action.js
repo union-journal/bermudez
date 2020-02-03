@@ -76,27 +76,17 @@ $(document).ready(function() {
       $(lister[4]).css("opacity",  1) 
     }
 
+    ///Transition///
 
-    if (scrollTop > 13400 && scrollTop < 14400 ){
-      $(lister[0]).css("opacity",  1- ($(window).scrollTop() -13400 )/ 400) 
-      $(lister[1]).css("opacity",  1- ($(window).scrollTop() -13400 )/ 400) 
-      $(lister[2]).css("opacity",  1- ($(window).scrollTop() -13400 )/ 400) 
-      $(lister[3]).css("opacity",  1- ($(window).scrollTop() -13400 )/ 400) 
-      $(lister[4]).css("opacity",  1- ($(window).scrollTop() -13400 )/ 400) 
+    if (scrollTop > 6200 && scrollTop < 7200 ){
+      $(lister[0]).css("opacity",  1- ($(window).scrollTop() -6200 )/ 1000) 
+      $(lister[1]).css("opacity",  1- ($(window).scrollTop() -6200 )/ 1000) 
+      $(lister[2]).css("opacity",  1- ($(window).scrollTop() -6200 )/ 1000) 
+      $(lister[3]).css("opacity",  1- ($(window).scrollTop() -6200 )/ 1000) 
+      $(lister[4]).css("opacity",  1- ($(window).scrollTop() -6200 )/ 1000) 
     }
 
-    if (scrollTop > 13400 && scrollTop < 14400 ){
-      $(lister[5]).css("opacity",  ($(window).scrollTop() -13400 )/ 400) 
-
-    }
-    
-    if (scrollTop > 13400 && scrollTop < 14400 ){
-      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -13400 )/ 400) 
-
-    }
-
-
-    if (scrollTop > 14400){
+    if (scrollTop > 7200){
       $(lister[0]).css("opacity", 0) 
       $(lister[1]).css("opacity", 0) 
       $(lister[2]).css("opacity", 0) 
@@ -104,10 +94,25 @@ $(document).ready(function() {
       $(lister[4]).css("opacity", 0) 
     }
 
-    if (scrollTop < 13400){
+    ///OBJECT 6///
+
+    if (scrollTop > 6700 && scrollTop < 7700 ){
+      $(lister[5]).css("opacity",  ($(window).scrollTop() -6700 )/ 1000) 
+
+    }
+    
+    if (scrollTop > 7700 && scrollTop < 8700 ){
+      $(lister[5]).css("opacity",  (1-$(window).scrollTop() -7700 )/ 1000) 
+
+    }
+
+    if (scrollTop < 6700){
       $(lister[5]).css("opacity",  0) 
     }
 
+    if (scrollTop > 8700){
+      $(lister[5]).css("opacity",  0) 
+    }
     /* 
     
     SECOND PAGE 
