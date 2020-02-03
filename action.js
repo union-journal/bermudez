@@ -7,6 +7,7 @@ $(document).ready(function() {
   }
   console.log(lister)
 
+
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
@@ -17,10 +18,6 @@ $(document).ready(function() {
     FIRST PAGE 
     
     */
-
-    for (let k = 0; k < lister.length; k++) {
-    }
-
     ///OBJECT 1///
     if (scrollTop > 200 && scrollTop < 1200 ){
       $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 1000) 
@@ -99,7 +96,7 @@ $(document).ready(function() {
     }
 
 
-    if (scrollTop > 3800){
+    if (scrollTop > 14400){
       $(lister[0]).css("opacity", 0) 
       $(lister[1]).css("opacity", 0) 
       $(lister[2]).css("opacity", 0) 
@@ -107,7 +104,7 @@ $(document).ready(function() {
       $(lister[4]).css("opacity", 0) 
     }
 
-    if (scrollTop < 3800){
+    if (scrollTop < 13400){
       $(lister[5]).css("opacity",  0) 
     }
 
