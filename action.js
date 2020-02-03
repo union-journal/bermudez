@@ -19,8 +19,8 @@ $(document).ready(function() {
     */
 
     ///OBJECT 1///
-    if (scrollTop > 200 && scrollTop < 1000 ){
-      $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 800) 
+    if (scrollTop > 200 && scrollTop < 1200 ){
+      $(lister[0]).css("opacity",  ($(window).scrollTop() -200 )/ 1000) 
     }
     if (scrollTop < 200){
       $(lister[0]).css("opacity",  0) 
@@ -30,33 +30,52 @@ $(document).ready(function() {
     }
 
     ///OBJECT 2///
-    if (scrollTop > 800 && scrollTop < 1200 ){
-      $(lister[1]).css("opacity",  ($(window).scrollTop() -800 )/ 400) 
+    if (scrollTop > 1200 && scrollTop < 2200 ){
+      $(lister[1]).css("opacity",  ($(window).scrollTop() -1200 )/ 1000) 
     }
-    if (scrollTop < 800){
+    if (scrollTop < 1200){
       $(lister[1]).css("opacity",  0) 
     }
-
-    if (scrollTop > 1400 && scrollTop < 1800){
-      $(lister[2]).css("opacity",  ($(window).scrollTop() -1400)/ 400) 
+    if (scrollTop > 2200 && scrollTop < 3400){
+      $(lister[1]).css("opacity",  1) 
     }
-    if (scrollTop < 1400){
+
+
+    ///OBJECT 3///
+    if (scrollTop > 2200 && scrollTop < 3200 ){
+      $(lister[2]).css("opacity",  ($(window).scrollTop() -2200 )/ 1000) 
+    }
+    if (scrollTop < 2200){
       $(lister[2]).css("opacity",  0) 
     }
-
-    if (scrollTop > 2000 && scrollTop < 2400 ){
-      $(lister[3]).css("opacity",  ($(window).scrollTop() -2000 )/ 400) 
+    if (scrollTop > 3200 && scrollTop < 5400){
+      $(lister[2]).css("opacity",  1) 
     }
-    if (scrollTop < 2000){
+
+    ///OBJECT 4///
+
+    if (scrollTop > 3200 && scrollTop < 4200 ){
+      $(lister[3]).css("opacity",  ($(window).scrollTop() -3200 )/ 1000) 
+    }
+    if (scrollTop < 3200){
       $(lister[3]).css("opacity",  0) 
     }
-
-    if (scrollTop > 2600 && scrollTop < 3000 ){
-      $(lister[4]).css("opacity",  ($(window).scrollTop() -2600 )/ 400) 
+    if (scrollTop > 4200 && scrollTop < 5400){
+      $(lister[3]).css("opacity",  1) 
     }
-    if (scrollTop < 2600){
+
+    ///OBJECT 5///
+
+    if (scrollTop > 4200 && scrollTop < 5200 ){
+      $(lister[4]).css("opacity",  ($(window).scrollTop() -4200 )/ 1000) 
+    }
+    if (scrollTop < 4200){
       $(lister[4]).css("opacity",  0) 
     }
+    if (scrollTop > 5200 && scrollTop < 6400){
+      $(lister[4]).css("opacity",  1) 
+    }
+
 
     if (scrollTop > 3400 && scrollTop < 3800 ){
       $(lister[0]).css("opacity",  1- ($(window).scrollTop() -3400 )/ 400) 
