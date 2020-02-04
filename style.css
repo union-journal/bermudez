@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -20,10 +20,11 @@ time, mark, audio, video {
 
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
     -ms-overflow-style: none;
 	line-height: 1;
@@ -32,6 +33,84 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+/* for the info menu */
+/* for the info menu */
+.top {
+  position: fixed;
+  width:50%;
+  z-index: 999;
+}
+
+/* #question {
+  height: 25px;
+} */
+
+.info {
+  position: fixed;
+  font-size: 26px;
+  color: #FFF9E0;
+  z-index: 999;
+  top: 10px;
+  right: 10px;
+	padding:0px 0px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#tag-menu {
+	display:none;
+}
+
+
+#tag-menu:checked ~ div.drawer {
+ animation: slide-out 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+/* linear-gradient(to right, , rgba(255,0,0,0)); */
+.drawer {
+  background: radial-gradient(farthest-corner at 60% 55%, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.75),rgba(255,0,0,0));
+	position:fixed;
+  top: 0;
+	right:-500px;
+	height:100%;
+	z-index:100;
+	width:500px;
+	animation: slide-in 0.5s ease;
+	animation-fill-mode: forwards;
+  margin-top: 0px;
+  /* eventually make scroll within a div */
+}
+
+#whole {
+  text-align: justify;
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding-right: 10px;
+  color: #1B0D00;
+  font: Georgia;
+  overflow-y: auto;
+  height: 90%;
+}
+
+#bar_text {
+  font-size: 30px;
+}
+
+
+@keyframes slide-in {
+ from {right: 0px;}
+ to {right: -500px;}
+}
+
+@keyframes slide-out {
+ from {right: -500px;}
+ to {right: 0px;}
 }
 
 
@@ -166,7 +245,7 @@ img{
     left: 50%;
     margin-left: -2048px;
     margin-top: -600px;
-    height: 1200px; 
+    height: 1200px;
 }
 
 .p4top{
@@ -197,21 +276,21 @@ img{
         height: 56%;
         margin-left: 19%;
     }
-    
+
     .p1middle{
         position: fixed;
         margin-top:1%;
         height: 56%;
         margin-left: 39.5%;
     }
-    
+
     .p1right{
         position: fixed;
         margin-top:1%;
         height: 56%;
         margin-left: 53.5%;
     }
-    
+
     .p1bmiddle{
         position: fixed;
         margin-left: 39%;
@@ -219,14 +298,14 @@ img{
         height: 35%;
         transform: rotate(17deg);
     }
-    
+
     .p1bright{
         position: fixed;
         margin-left: 59%;
         margin-top: 36%;
         height: 24%;
     }
-    
+
     .coopertown{
         position: fixed;
         top: 50%;
@@ -242,21 +321,21 @@ img{
         height: 70%;
         left: 14%;
     }
-    
+
     .p2middle{
         position: fixed;
         top: 15%;
         height: 70%;
         left: 40.25%;
     }
-    
+
     .p2right{
         position: fixed;
         top: 15%;
         height: 70%;
         left: 58%;
     }
-    
+
     .unionblues{
         position: fixed;
         top: 50%;
@@ -265,35 +344,35 @@ img{
         margin-top: -155px;
         height: 300px;
     }
-    
+
     .p3tright{
         position: fixed;
         top: 2%;
         height: 42%;
         left: 14%;
     }
-    
+
     .p3tleft{
         position: fixed;
         top: 30%;
         height: 42%;
         left: 14.5%;
     }
-    
+
     .p3bleft{
         position: fixed;
         top: 56%;
         height: 52%;
         left: 41%;
     }
-    
+
     .p3bright{
         position: fixed;
         top: 46%;
         height: 37%;
         left: 71%;
     }
-    
+
     .visual{
         position: fixed;
         top: 50%;
@@ -302,21 +381,21 @@ img{
         margin-top: -155px;
         height: 281px;
     }
-    
+
     .p4top{
         position: fixed;
         top: 4%;
         height: 56%;
         left: 38.5%;
     }
-    
+
     .p4left{
         position: fixed;
         top: 41%;
         height: 45%;
         left: 23%;
     }
-    
+
     .p4right{
         position: fixed;
         top: 42%;
