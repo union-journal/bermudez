@@ -50,7 +50,8 @@ body::-webkit-scrollbar {
 .info {
   position: fixed;
   font-size: 26px;
-  color: #FFF9E0;
+  color: black;
+	font-family: 'Roboto', sans-serif;
   z-index: 999;
   top: 10px;
   right: 10px;
@@ -86,20 +87,23 @@ body::-webkit-scrollbar {
 }
 
 #whole {
-  text-align: justify;
+  text-align: left;
   margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 35px;
   padding-right: 10px;
-  color: #1B0D00;
-  font: Georgia;
+  color: black;
+  font-family: 'Roboto', sans-serif;
   overflow-y: auto;
   height: 90%;
 }
 
 #bar_text {
-  font-size: 30px;
+  font-size: 25px;
+}
+#structions {
+  font-size: 15px;
 }
 
 
